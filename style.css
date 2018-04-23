@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+
+html, body {
+    background-color: #bbd2c5;
+}
+
+
+img {
+    width: 25%;
+    border-radius: 50%;
+    padding-top: 1vh;
+}
+
+#navbarCollapse {
+    text-align: center;
+}
+
+.nav-link {
+    margin-right: 5vh;
+}
+
+* {
+    font-family: 'PT Serif', serif;
+}
+
+
+.icons li {
+    display: inline;
+    color: #A9A9A9;
+    list-style: none;
+    margin-right: 20px;
+}
+.icons ul li:last-child {
+    margin-right: 50px;
+}
+
+a {
+  color:blue;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+      color: grey;
+}
+.icons {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.wrapper {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+}
+
+
+section {
+    padding: 7vh;
+    margin-bottom: 3vh;
+    background-color: white;
+
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.calendar {
+    background-color: white;
+    padding: vh;
+}
+
+
+
+
+@media(max-width: 786px) {
+    img {
+        width: 70%;
+        border-radius: 50%;
+        margin-top: 20px;
+      }
+    .primary {
+        margin-bottom: 2vh;
+      }
+}
+
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
