@@ -74,12 +74,6 @@ section {
 }
 
 
-.calendar {
-    background-color: white;
-    padding: vh;
-}
-
-
 
 
 @media(max-width: 786px) {
@@ -91,6 +85,15 @@ section {
     .primary {
         margin-bottom: 2vh;
       }
+     {
+        margin-top: 2vh;
+    }
+    .description {
+        margin-top: 1rem;
+    }
+    .location {
+        font-size: .9rem;
+    }
 }
 
 

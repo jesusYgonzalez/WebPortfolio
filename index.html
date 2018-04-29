@@ -55,18 +55,12 @@
   </div> <!-- END NAVBAR -->
 
 
-
-
-
-
-
-
   <!-- JUMBOTRON -->
   <main class="container-fluid">
     <div class="jumbotron-fluid bg-light" style="padding-bottom:1rem">
       <header id="main-header" style="margin:5rem 0 1rem 0">
         <div class="col-lg-12 col-md-5">
-          <img class="mx-auto d-block" src="jesus.jpg">
+          <img class="mx-auto d-block" alt="Profile picture" src="jesus.jpg">
         </div>
       </header>
         <h1 class="display-5" style="text-align:center">Jesus Y Gonzalez</h1>
@@ -108,36 +102,36 @@
           <h2>Projects</h2>
           <div class="item row">
             <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/jesusYgonzalez/empire_game_M.E.A.N_Project">
-              <img src="battlecraft.jpg" alt="BattleCraft" style="width:100%;height100%;border-radius:0px">
+              <img src="battlecraft.jpg" alt="BattleCraft" style="width:100%;border-radius:0px">
             </a>
             <div class="col-md-8 col-sm-8 col-xs-12">
-              <h3>
+              <h3 class="description" style="">
                 <a href="https://github.com/jesusYgonzalez/empire_game_M.E.A.N_Project">BattleCraft - Web Game</a>
               </h3>
               <p>Allows users to create their own empire with farmers, armies, and heroes to build a strong economy and conquer other empires</p>
               <p>Technologies used: MongoDB, Express, Angularjs, Nodejs, Nginx, AWS</p>
             </div>
           </div>
-          <hr class="my-3" style="max-width:75%">
+          <hr class="my-2" style="max-width:75%">
           <div class="item row">
             <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Jreddysmith/moto_page">
-              <img src="motopit.jpg" alt="MotoPitPass" style="width:100%;height100%;border-radius:0px">
+              <img src="motopit.jpg" alt="MotoPitPass" style="width:100%;border-radius:0px">
             </a>
             <div class="col-md-8 col-sm-8 col-xs-12">
-              <h3>
+              <h3 class="description">
                 <a href="https://github.com/Jreddysmith/moto_page">MotoPitPass - Designed for the Motocross community</a>
               </h3>
               <p>Built around the Motocross community to help fellow Motocross riders, family members and fans connect</p>
               <p>Technologies used: Ruby on Rails, Angularjs, Active Records, Ngnix, AWS</p>
             </div>
           </div>
-          <hr class="my-3" style="max-width:75%">
+          <hr class="my-2" style="max-width:75%">
           <div class="item row">
             <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Jreddysmith/ecomix">
-              <img src="ecomix.jpg" alt="Ecomix" style="width:100%;height100%;border-radius:0px">
+              <img src="ecomix.jpg" alt="Ecomix" style="width:100%;border-radius:0px">
             </a>
             <div class="col-md-8 col-sm-8 col-xs-12">
-              <h3>
+              <h3 class="description">
                 <a href="https://github.com/Jreddysmith/ecomix">Ecomix - Everything Comics and Books</a>
               </h3>
               <p>Your one stop online store for everything Comicbooks and books in general</p>
@@ -153,19 +147,19 @@
       <div class="location">
         <ul class="list-unstyled">
           <li>
-            <i  style="color:grey" class="fas fa-map-marker-alt mr-1"></i>
+            <i  style="color:grey" class="fas fa-map-marker-alt"></i>
             <span class="sr-only">Location:</span>
             Ontario, Ca. United States
           </li>
           <li>
-            <i  style="color:grey" class="fas fa-envelope mr-1"></i>
+            <i  style="color:grey" class="fas fa-envelope"></i>
             <span class="sr-only">Email:</span>
             <a style="text-decoration:none" href="mailto:jygonzalez1986@gmail.com">jygonzalez1986@gmail.com</a>
-            <li>
-            <i  style="color:grey" class="fas fa-phone-square mr-1 ml-auto"></i>
+          </li>
+          <li>
+            <i  style="color:grey" class="fas fa-phone-square ml-auto"></i>
             <span class="sr-only">Email:</span>
             <a style="text-decoration:none">(757) 470 2009</a>
-          </li>
           </li>
         </ul>
       </div>
@@ -226,20 +220,15 @@
   </div> <!-- END ROW -->
 </div> <!-- END WRAPPER -->
 
-
     <!-- GITHUB WIDGET -->
     <div class="calendar d-none d-sm-block" style="margin-bottom:5vh;background-color:white">
       Loading the data just for you.
     </div> 
-      
 
-    
-
-    <!-- FOOTER -->
   <footer id="resume" class="bg-light">
     <div class="container-fluid">
       <div class="row">
-        <div class="resume col-md-1 col-xs-6 pt-4">
+        <div class="col-md-2 py-3">
           <a href="WebDevPortfolio/web-developer-resume.pdf"
           download="web-developer-resume"
           class="btn btn-outline-dark">
@@ -247,7 +236,7 @@
           Download Resume
           </a>
         </div>
-        <div class="col-md-11 col-xs-6">
+        <div class="col-md-10">
           <div class="py-3" style="text-align:center">
             <h1>Jesus Y Gonzalez</h1>
             <p>Copyright &copy; 2018</p>
@@ -264,12 +253,13 @@
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   <script>
-  $(document).ready(function () {
-    $(".navbar-nav>li>a").click(function(event) {
-      $(".navbar-collapse").collapse('hide');
-  });
-});
+    $(document).ready(function () {
+      $(".navbar-nav>li>a").click(function() {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
   </script>
+
 </body>
 </html>
 
